@@ -30,7 +30,7 @@
                         <label for="exampleInputPassword1">Icon</label>
                         <!-- <img id="image-preview-update" alt="image preview" width="200px"/> -->
                         <img id="image-preview-update" width="100px" src="/data_file/{{$partner->logo}}" alt="">
-                        <input value="{{ $partner->logo ?? old('logo') }}" type="file" name='logo' class="form-control" id="image-source-update" placeholder=""onchange="previewImageUpdate();" required/>
+                        <input value="{{ $partner->logo ?? old('logo') }}" type="file" name='logo' class="form-control" id="image-source-update" placeholder=""onchange="previewImageUpdate();" />
                       </div>
 
                   </div>

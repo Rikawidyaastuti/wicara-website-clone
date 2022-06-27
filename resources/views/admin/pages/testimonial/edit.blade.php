@@ -24,7 +24,7 @@
                     <div class="form-group">
                         <label for="exampleInputPassword1">Image</label>
                         <img  id="image-preview-update" width="100px" src="/data_file/{{$testimonial->image}}" alt="">
-                        <input value="{{ $testimonial->image ?? old('image') }}" type="file" name='image' class="form-control" id="image-source-update" onchange="previewImageUpdate();" required/>
+                        <input value="{{ $testimonial->image ?? old('image') }}" type="file" name='image' class="form-control" id="image-source-update" onchange="previewImageUpdate();" />
                       </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Name</label>
@@ -71,12 +71,12 @@
              </script>
              <script type="text/javascript">
 
-              $('.date').datepicker({  
-          
+              $('.date').datepicker({
+
                  format: 'yyyy-mm-dd'
-          
-               });  
-            </script> 
+
+               });
+            </script>
 @endsection
 
 {{-- <div class="p2">
